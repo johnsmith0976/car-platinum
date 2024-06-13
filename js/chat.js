@@ -41,7 +41,7 @@ let Newtime = function () {
   return time;
 };
 let firstMessage = function () {
-  let firstMessage = "Hello, my name is Plum! Welcome to the Platinum website.";
+  let firstMessage = "Hello, I'm your AI-powered teacher! What would you like to learn?";
   let initialMsg = document.querySelector("#initialMsg");
   initialMsg.innerHTML = `<p class="botText"> <span> ${firstMessage} </span> </p>`;
   let time = Newtime();
